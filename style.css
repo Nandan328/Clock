@@ -1,9 +1,9 @@
 #clock{
     font-size: 75px;
-    position: relative;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: -10px;
+    margin-top: -10px;
 }
 #date
 {
@@ -25,7 +25,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
 }
 #youtube{
     background-color: #ff0000;
@@ -102,4 +102,16 @@ background-color: #ffffff;
     left: 0;
     margin: 8px;
     font-size: 13px;
+}
+#search-form {
+    margin-left: -25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#search-bar{
+    height: 30px;
+    width: 300px;
+    padding: 4px;
+    border-radius: 20px;
+    border: none;
 }
