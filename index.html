@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div id="Ok">
     <div id="clock">Clock</div>
     <div id="date">Date</div>
-    <p style="font-size: 15px;margin-left: 45px;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); "><i>You're the main character.</i></p>
-    <button id="youtube" onclick="youtube()"></button>&nbsp;&nbsp;
+    <p style="font-size: 15px;margin-left: 45px;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);margin-bottom:-5px "><i>You're the main character.</i></p>
+    <form action="https://www.google.com/search" method="get" id="search-form">
+        <input type="text" name="q" placeholder="Search Google" id="search-bar">
+      </form>
+      <button id="youtube" onclick="youtube()"></button>&nbsp;&nbsp;
     <button id="google" onclick="google()"></button>&nbsp;&nbsp;
     <button id="github" onclick="github()"></button>&nbsp;&nbsp;
     <button id="amazon" onclick="amazon()"></button>&nbsp;&nbsp;
